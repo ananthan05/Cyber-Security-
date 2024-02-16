@@ -114,7 +114,55 @@ Nmap command to perform ping sweep - `nmap -sn <network address>/<CIDR>`.
  ![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/1278d6f9-e000-4fc6-ae23-dadeffbd9ebb)
 
 
+#### Try these below questions after completing the above commands.
+
+#### 1. What is a web application firewall? How do you use Nmap to detect a WAF? Perform WAF fingerprint detection using NMAP.
+
+- A Web Application Firewall (WAF) is a security tool designed to protect web applications from various attacks, such as SQL injection, cross-site scripting (XSS), and other common web exploits. WAFs monitor and filter HTTP traffic between a web application and the Internet, identifying and blocking malicious requests before they reach the application.
+
+- To detect a WAF using Nmap, you can use its HTTP WAF fingerprinting feature. This feature sends specially crafted HTTP requests to the target web server and analyzes the responses to identify patterns that indicate the presence of a WAF.
+
+ `sudo nmap --script http-waf-fingerprint <target>`
+
+ *Victim Machine when firewall is on*
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/baf8b73b-992e-463b-8567-fce2d058e45a)
+
+
+ *Attacker Machine*
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/4084acbb-c34c-4baf-a564-c0f6a8ae6bb0)
+
+#### 2.What is EXIF data? Tryto find EXIF data of images on a website using NMAP NSE. 
+
+#### EXIF DATA 
+
+-EXIF (Exchangeable Image File Format) data is a standard for storing metadata in image files, typically used by digital cameras and smartphones. This metadata can include information such as the camera model, exposure settings, GPS coordinates, and timestamps.
+
+-To find EXIF data of images on a website using Nmap NSE (Nmap Scripting Engine), you can use the http-exif-spider script. This script crawls a website, downloads images, and extracts EXIF data from them. Here's how you can do it:
+
+`sudo nmap --script http-exif-spider <website>`
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/86827ae0-de26-4c49-b012-99ea355a48a1)
+
+
+ *Attacker Machine*
+
+ Appliying on Victim Machine
+
+ ![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/b45a93db-c6bc-4038-abe3-722db030b08d)
+
+
+ #### 3. Use NMAP NSE to find all subdomains of the website.
+
+All the nse scripts are loacated in `/usr/share/nmap/scripts/`
+
+`sudo nmap --script dns-brute <website>`
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/1c7cebb7-bc72-4b7c-9e00-eb974061cf81)
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/de9c1396-1807-4e83-9f1d-3e4100785d12)
 
 
 
-
+ 
