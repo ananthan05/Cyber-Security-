@@ -82,7 +82,19 @@ WE need to add the ip address of the Victim Machine `192.168.192.131` to `/etc/h
 
 ![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/f7d0a54e-f32c-4a6e-b9ab-a9b2193e6dd4)
 
+#### f) Use NMAP commands to export the output in XML format.
 
+*Attacker Machine*
+
+Use the  `nmap -sV <target-ip> -oX name.xml`
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/1c60b046-ae16-4d91-97d6-c3299da52aa2)
+
+
+#### g) Use the NMAP command to get OS information about a host.
+
+ *Attacker Machine*
+ 
 
 
 
