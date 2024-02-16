@@ -94,7 +94,10 @@ Use the  `nmap -sV <target-ip> -oX name.xml`
 #### g) Use the NMAP command to get OS information about a host.
 
  *Attacker Machine*
- 
+
+  `nmap -O <target-ip>`
+
+  ![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/e364c609-a212-49da-8d63-d081e8964e60)
 
 
 
