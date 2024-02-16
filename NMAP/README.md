@@ -164,5 +164,14 @@ All the nse scripts are loacated in `/usr/share/nmap/scripts/`
 ![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/de9c1396-1807-4e83-9f1d-3e4100785d12)
 
 
+## 4. Perform a vulnerability scan on the target host using NMAP NSE.
+
+Command -  `nmap -sV --script=vuln <target ip>`
+
+*Attacker Machine*
+
+![WhatsApp Image 2024-02-17 at 00 58 45_ec6f292b](https://github.com/ananthan05/Cyber-Security-/assets/140697378/3766bc86-5333-487c-bf27-f2364899755a)
+
+
 
  
