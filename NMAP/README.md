@@ -99,5 +99,22 @@ Use the  `nmap -sV <target-ip> -oX name.xml`
 
   ![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/e364c609-a212-49da-8d63-d081e8964e60)
 
+  #### h) Explain ping sweeping and Perform ping sweeping using Nmap
+
+#### Ping Sweep
+
+A method of network reconnaissance called "ping sweeping" is used to find out which IP addresses are active and reachable within a network. To find out which IP addresses are reachable and available, it entails sending a string of ICMP echo request messages, or pings, to a variety of addresses, usually in a sequential manner.
+
+Network administrators frequently use ping sweeping to map the network and find active hosts.
+
+Nmap command to perform ping sweep - `nmap -sn <network address>/<CIDR>`.
+
+ *Attacker Machine*
+
+ ![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/1278d6f9-e000-4fc6-ae23-dadeffbd9ebb)
+
+
+
+
 
 
