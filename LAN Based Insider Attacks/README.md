@@ -46,5 +46,32 @@ When analyze the Splunk reports we can see that http request was successful but 
 
 ## Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks.
 
+The DoS (Denial of Service) attack plugin in ettercap is used to overload a target system or network with traffic in order to prevent the system or network from operating normally. This attack aims to prevent authorised users from accessing the target system or network. The way the DoS attack plugin in ettercap operates is by flooding the target with a lot of network traffic. Requests sent over the network, such as HTTP or DNS inquiries, might be considered genuine traffic.
+
+As like the previous steps,
+
+Scan for hosts
+
+Add hosts as target (only the target ip & not the gateway ip)
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/ffbc16e0-a668-4ec0-b365-e79879142357)
+
+Start arp poisoning the victim. 
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/cd343bff-c91a-484b-a10a-059ef3c6db3d)
+
+And now run the dos_attack plugin.
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/4a1abc86-03a1-4974-9eb2-e394c7f68198)
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/0eb005c5-8a27-4b78-ac77-66795e514ed2)
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/ae79726c-674c-42aa-a9e5-ad6e2ef84f62)
+
+IN victim Machine.
+
+The victim becomes sluggish as soon as we enable the plugin since the target IP starts sending the victim a large number of packets. Therefore, the victim's web searches just never stop loading.
+
+![WhatsApp Image 2024-02-17 at 21 50 42_c06541b8](https://github.com/ananthan05/Cyber-Security-/assets/140697378/aaa5707f-33aa-4fc3-ad90-a79583021267)
 
 
