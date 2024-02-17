@@ -134,4 +134,24 @@ IDENTIFY THE SOURCE OF THE ATTACK JUST BY USING SPLUNK LOGS
 
 ![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/e6778b1a-c93c-4bd4-b4b2-750fa9fabe27)
 
+## ICMP redirect (ARP poisoning)
+
+Now, open Ettercap and start host scanning then, add victim’s IP to target 1 and default gateway to 
+target 2 
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/d4c90c7e-7de9-4813-87f4-d7dd9ac54dab)
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/5b9cd8ab-bd3a-443d-a19b-a2f336a871ff)
+
+After adding the respective hosts as targets start Arp poisoning. And after starting ARP poisoning simultaneously run the Wireshark in the background.
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/d787c234-fab6-48a8-97fb-5d436270d516)
+
+Choose icmp redirect and add the mac address and ip address of the default gateway.
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/bbb3ba83-0c82-48b7-a39f-a899df73bbe1)
+
+As we can see , the redirected message displayed in wireshark. 
+
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/37f78c2e-63e4-4417-82b6-8e535415bb5f)
 
