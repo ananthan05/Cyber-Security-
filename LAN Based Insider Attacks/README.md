@@ -72,7 +72,8 @@ IN victim Machine.
 
 The victim becomes sluggish as soon as we enable the plugin since the target IP starts sending the victim a large number of packets. Therefore, the victim's web searches just never stop loading.
 
-![WhatsApp Image 2024-02-17 at 21 50 42_c06541b8](https://github.com/ananthan05/Cyber-Security-/assets/140697378/aaa5707f-33aa-4fc3-ad90-a79583021267)
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/0360470a-f9e1-45ce-ad88-7559d89af52b)
+
 
 
 ## Perform DNS Spoofing attack using ARP Cache Poisoning attacks
