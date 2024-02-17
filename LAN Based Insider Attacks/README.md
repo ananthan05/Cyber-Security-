@@ -75,3 +75,5 @@ The victim becomes sluggish as soon as we enable the plugin since the target IP 
 ![WhatsApp Image 2024-02-17 at 21 50 42_c06541b8](https://github.com/ananthan05/Cyber-Security-/assets/140697378/aaa5707f-33aa-4fc3-ad90-a79583021267)
 
 
+## Perform DNS Spoofing attack using ARP Cache Poisoning attacks
+
