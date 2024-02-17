@@ -9,7 +9,7 @@ Ettercap is a comprehensive, open-source network security tool used for analyzin
 
 So here we set the interface on which have to start sniffing and related attacks. Then we start sniffing on the interface.
 
-## ARP SPOOFING
+## ARP Cache Poisoning
 ARP spoofing is the process of linking an attacker’s MAC address with the IP address of a legitimate user on a local area network using fake ARP messages. As a result, data sent by the user to the host IP address is instead transmitted to the attacker.
 
 ### CAUSE OF ATTACK
@@ -41,4 +41,10 @@ Now we can see that we are able to see the traffic. So our attack is successful.
 
 
 When analyze the Splunk reports we can see that http request was successful but there was no sign of showing ARP spoof.
+
+
+
+## Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks.
+
+
 
