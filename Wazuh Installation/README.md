@@ -128,17 +128,17 @@ As we open Wazuh server, it will show all the vulnerabilities after scanning the
 
 Here is the graphical representation of all vulnerabilities and no. of vulnerabilities in terms of severity
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/ff5a7c1e-4b9b-464f-96f4-759cf0d53cbd)
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/7d1c8688-a5c2-43b2-8379-02bb9c852b97)
 
 If we click the critical vulnerability, we will able to analyse
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6b47b86a-c72f-4a4d-af4e-a0916748a2bf)
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/1353f830-29a4-497c-bbfc-379a85d43e94)
 
 We have analysed Windows 11 also which is having 
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/446cf384-a328-45bb-8d2d-ce94c2d9f661)
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/2c4e0e6a-33ba-4d3b-a6eb-17a6150e6232)
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/8b6ac49a-cd00-4f22-a511-23052ca68b5e)
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/9119724e-418f-40a8-a077-cfdf5fa36859)
 
 CVE (common vulnerability and exposure) doesn’t only include the malicious software, the outdated software which are present in the system is also considered as a CVE
 
@@ -147,8 +147,9 @@ CVE (common vulnerability and exposure) doesn’t only include the malicious sof
 
 We can navigate to Mitre Attack
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/fffb5988-8b96-4c71-9edd-a406f9eb01fc)
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/1d85f6ea-f35e-4605-b161-8f82aeb00c56)
 
 We can view Security Events as performing any authentication failure 
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6be6a69e-e507-49ef-b077-8f4559a882f1)
+![image](https://github.com/ananthan05/Cyber-Security-/assets/140697378/11c9053d-0c0a-4d30-aaa3-456cd199d787)
+
